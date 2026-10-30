@@ -1,0 +1,91 @@
+/* ------------------------------
+   Larger Screens
+--------------------------------- */
+
+@media screen and (min-width: 640px) {
+
+    /* ------------------------------
+       Header
+    --------------------------------- */
+
+    .header-content {
+        padding: 0.5rem 2rem;
+    }
+
+    #menu-button {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+    }
+
+    nav a {
+        border-top: none;
+        border-right: 1px solid #444;
+        padding: 0.7rem 1.5rem;
+    }
+
+
+    /* ------------------------------
+       Main
+    --------------------------------- */
+
+    main {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 1.5rem 2rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+
+    /* ------------------------------
+       About Me + Student Photo
+    --------------------------------- */
+
+    .home-grid {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .about-me {
+        margin-bottom: 0;
+    }
+
+    .student-photo {
+        margin-bottom: 0;
+    }
+
+    .student-photo img {
+        max-width: 250px;
+    }
+
+
+    /* ------------------------------
+       Certificate Courses
+    --------------------------------- */
+
+    .course-filters {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #course-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+
+    /* ------------------------------
+       Footer
+    --------------------------------- */
+
+    footer {
+        padding: 1.5rem;
+    }
+
+}

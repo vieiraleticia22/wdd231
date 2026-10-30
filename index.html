@@ -2,10 +2,110 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=>, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home page for Leticia's WDD231 Web and Computer Programming course work.">
+    <meta name="author" content="Leticia Vieira">
+    <title>Home | Leticia Vieira | WDD231</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
 </head>
 <body>
-    <h1>Leticia Santana</h1>
+    <header>
+        <div class="header-content">
+    
+            <div class="site-info">
+                <img src="images/logo.svg" alt="Site logo">
+                <span>Leticia Vieira</span>
+            </div>
+    
+            <button id="menu-button" aria-label="Open navigation menu">
+                ☰
+            </button>
+    
+        </div>
+    
+        <nav id="navigation">
+            <a href="index.html" class="active">Home</a>
+            <a href="#">Chamber Project</a>
+            <a href="#">Final Project</a>
+        </nav>
+    </header>
+    
+    <main>
+    
+        <h1>Home</h1>
+    
+        <div class="home-grid">
+    
+            <section class="about-me">
+                <h2>About Me</h2>
+    
+                <p>
+                    Hello! My name is Leticia Vieira. I am a Software Development
+                    student and I am currently learning web development, programming,
+                    and other technologies. I enjoy learning new skills and creating
+                    projects that help me grow as a developer.
+                </p>
+            </section>
+    
+            <section class="student-photo">
+                <h2>Student Photo</h2>
+    
+                <img src="images/leticia.webp" alt="Photo of Leticia Vieira">
+            </section>
+    
+        </div>
+    
+        <section class="certificate-courses">
+            <h2>Web Certificate Courses</h2>
+    
+            <div class="course-filters">
+                <button id="all-courses">All</button>
+                <button id="cse-courses">CSE</button>
+                <button id="wdd-courses">WDD</button>
+            </div>
+    
+            <div id="course-container">
+                <!-- Courses will be displayed here using JavaScript -->
+            </div>
+    
+            <p>
+                The total credits for courses listed above is
+                <span id="total-credits"></span>
+            </p>
+        </section>
+    
+    </main>
+    
+    <footer>
+    
+        <div class="social-links">
+            <a href="https://github.com/vieiraleticia22" target="_blank" rel="noopener noreferrer">
+                GitHub
+            </a>
+    
+            <a href="https://www.linkedin.com/in/leticia-santana-a3005533b" target="_blank" rel="noopener noreferrer">
+                LinkedIn
+            </a>
+    
+            <a href="https://www.instagram.com/santana__lele/" target="_blank" rel="noopener noreferrer">
+                Social
+            </a>
+        </div>
+    
+        <p>
+            &copy; <span id="currentyear"></span>
+            Leticia Vieira
+            <span>Vitória, Espírito Santo, Brazil</span>
+        </p>
+    
+        <p id="lastModified"></p>
+    
+    </footer>
 </body>
 </html>
