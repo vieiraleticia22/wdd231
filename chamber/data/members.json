@@ -1,0 +1,67 @@
+{
+    "members": [
+        {
+            "name": "Capixaba Tecnologia",
+            "address": "Avenida Nossa Senhora da Penha, 1200, Vitória - ES",
+            "phone": "(27) 3333-1001",
+            "website": "https://example.com",
+            "image": "capixaba-tech.webp",
+            "membership": 3,
+            "description": "Technology solutions and digital innovation for local businesses."
+        },
+        {
+            "name": "Café Vitória",
+            "address": "Rua Aleixo Netto, 450, Praia do Canto, Vitória - ES",
+            "phone": "(27) 3333-1002",
+            "website": "https://example.com",
+            "image": "cafe-vitoria.webp",
+            "membership": 2,
+            "description": "A welcoming coffee shop offering specialty coffee and fresh pastries."
+        },
+        {
+            "name": "Construtora Horizonte",
+            "address": "Avenida Leitão da Silva, 800, Vitória - ES",
+            "phone": "(27) 3333-1003",
+            "website": "https://example.com",
+            "image": "horizonte.webp",
+            "membership": 3,
+            "description": "Construction and development services for residential and commercial projects."
+        },
+        {
+            "name": "Flor de Vitória",
+            "address": "Rua Joaquim Lírio, 250, Praia do Canto, Vitória - ES",
+            "phone": "(27) 3333-1004",
+            "website": "https://example.com",
+            "image": "flor-vitoria.webp",
+            "membership": 1,
+            "description": "Flower shop specializing in arrangements, gifts and event decoration."
+        },
+        {
+            "name": "Academia Movimento",
+            "address": "Avenida Fernando Ferrari, 1500, Goiabeiras, Vitória - ES",
+            "phone": "(27) 3333-1005",
+            "website": "https://example.com",
+            "image": "academia.webp",
+            "membership": 2,
+            "description": "Fitness center offering personalized training and wellness programs."
+        },
+        {
+            "name": "Sabor Capixaba",
+            "address": "Rua da Lama, 180, Jardim da Penha, Vitória - ES",
+            "phone": "(27) 3333-1006",
+            "website": "https://example.com",
+            "image": "sabor-capixaba.webp",
+            "membership": 1,
+            "description": "Restaurant celebrating traditional flavors and cuisine from Espírito Santo."
+        },
+        {
+            "name": "Vieira Consultoria",
+            "address": "Avenida Nossa Senhora da Penha, 900, Vitória - ES",
+            "phone": "(27) 3333-1007",
+            "website": "https://example.com",
+            "image": "vieira-consultoria.webp",
+            "membership": 3,
+            "description": "Business consulting services focused on management and entrepreneurship."
+        }
+    ]
+}
