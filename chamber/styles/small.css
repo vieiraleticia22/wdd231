@@ -137,7 +137,7 @@ footer {
     flex-direction: column;
     gap: 25px;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0;
 }
 
 footer h3 {
@@ -165,6 +165,38 @@ footer p {
 
 .footer-social a:hover {
     text-decoration: underline;
+}
+
+.footer-info,
+.social-links,
+.footer-bottom {
+    max-width: 986px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-info {
+    padding-bottom: 15px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 18px 0;
+    border-top: 1px solid #d6a84f;
+    border-bottom: 1px solid #d6a84f;
+}
+
+.social-links a {
+    color: #d6a84f;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    padding-top: 10px;
+    font-size: 0.85rem;
 }
 
 /* MEMBER DIRECTORY */
