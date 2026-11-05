@@ -4,10 +4,19 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Open Sans", sans-serif;
     margin: 0;
     background-color: #f5f6f8;
     color: #252b35;
+}
+
+h1,
+h2,
+h3,
+h4,
+nav,
+button {
+    font-family: "Montserrat", sans-serif;
 }
 
 img {
@@ -88,12 +97,7 @@ nav a.active {
 }
 
 /* MAIN */
-main {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    min-height: 400px;
-}
+
 
 h1 {
     color: #102b4e;
