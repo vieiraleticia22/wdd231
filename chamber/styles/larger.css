@@ -68,19 +68,36 @@
     }
 
     .hero {
-        min-height: 400px;
-        padding: 60px;
+        min-height: 450px;
     }
     
     .hero-content h2 {
         font-size: 2.5rem;
     }
     
+    .events-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    #spotlights-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+    
     .home-section {
         padding: 30px;
     }
 
-    .events-grid {
+    #spotlights-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .forecast-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #spotlights-container {
         grid-template-columns: repeat(3, 1fr);
     }
 }

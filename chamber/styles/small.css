@@ -272,26 +272,39 @@ main>h1 {
 
 /* Hero section */
 .hero {
+    position: relative;
     min-height: 350px;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 40px 25px;
     margin-bottom: 30px;
+    overflow: hidden;
     border-radius: 10px;
-    background-image:
-            linear-gradient(rgba(16, 43, 78, 0.65), rgba(16, 43, 78, 0.65)),
-            url("../images/vitoria_es.jpg");
-    
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    
     color: white;
     text-align: center;
-    }
+}
+
+.hero-image {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(16, 43, 78, 0.65);
+    z-index: 1;
+}
 
 .hero-content {
+    position: relative;
+    z-index: 2;
     max-width: 650px;
 }
 
@@ -401,4 +414,49 @@ main>h1 {
 
 .weather-credit {
     font-size: 0.8rem;
+}
+
+#spotlights-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.spotlight-card {
+    background: #f5f6f8;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #d6dce4;
+    text-align: center;
+}
+
+.spotlight-card img {
+    width: 140px;
+    height: 100px;
+    object-fit: contain;
+    margin: 10px auto;
+}
+
+.spotlight-card h3 {
+    color: #102b4e;
+}
+
+.spotlight-card a {
+    display: inline-block;
+    color: #102b4e;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.forecast-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.forecast-day {
+    background: white;
+    padding: 15px;
+    border-radius: 6px;
 }
