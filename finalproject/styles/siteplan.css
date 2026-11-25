@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #F4EBDD;
+    color: #292929;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #315C42;
+    color: #F4EBDD;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Lora", serif;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+section {
+    background-color: white;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    border-left: 5px solid #315C42;
+}
+
+h2 {
+    color: #315C42;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    margin: 1rem 0 0.5rem;
+}
+
+p,
+li {
+    margin-bottom: 0.5rem;
+}
+
+ul {
+    padding-left: 1.5rem;
+}
+
+.color-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.color-box {
+    width: 65px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 5px;
+}
+
+.forest {
+    background-color: #315C42;
+}
+
+.cream {
+    background-color: #F4EBDD;
+    border: 1px solid #292929;
+}
+
+.gold {
+    background-color: #D9A441;
+}
+
+.charcoal {
+    background-color: #292929;
+}
+
+.lora-example {
+    font-family: "Lora", serif;
+}
+
+.opensans-example {
+    font-family: "Open Sans", sans-serif;
+}
+
+.wireframe-placeholder {
+    min-height: 150px;
+    border: 2px dashed #315C42;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+footer {
+    background-color: #315C42;
+    color: #F4EBDD;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+@media screen and (min-width: 700px) {
+    main {
+        padding: 0 2rem;
+    }
+
+    section {
+        padding: 2rem;
+    }
+}
